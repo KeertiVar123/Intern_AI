@@ -2260,7 +2260,7 @@ export default function App() {
                   alert("Sending to AI... Please wait.");
                   
                   // 3. Send to Backend
-                  const response = await axios.post("http://127.0.0.1:8000/signup-student", formData, {
+                  const response = await axios.post("https://intern-ai-qgk8.onrender.com/signup-student", formData, {
                     headers: { "Content-Type": "multipart/form-data" }
                   });
 
