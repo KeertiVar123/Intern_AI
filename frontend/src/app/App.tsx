@@ -2591,7 +2591,7 @@ export default function App() {
                 <img 
                   src={newLogo} 
                   alt="InternAI Logo" 
-                  className="w-24 h-24 object-cover animate-pulse"
+                  className="w-full h-full object-contain animate-pulse"
                   {/* className="size-full object-contain animate-pulse" */}
                 />
               </div>
