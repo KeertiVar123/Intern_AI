@@ -2586,12 +2586,12 @@ export default function App() {
         
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-32">
           <div className="text-center space-y-8">
-            <div className="flex items-center justify-center gap-4 animate-fade-in">
-              <div className="relative w-24 h-24">
+            <div className="flex items-center gap-4 animate-fade-in">
+              <div className="relative w-24 h-24 shrink-0">
                 <img 
                   src={newLogo} 
                   alt="InternAI Logo" 
-                  className="w-full h-full object-contain animate-pulse"
+                  className="w-full h-full object-contain"
                 />
               </div>
               <h1 className="text-6xl md:text-7xl font-extrabold bg-gradient-to-r from-blue-400 via-purple-400 to-indigo-400 bg-clip-text text-transparent">
