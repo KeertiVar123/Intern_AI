@@ -2591,7 +2591,8 @@ export default function App() {
                 <img 
                   src={newLogo} 
                   alt="InternAI Logo" 
-                  className="size-full object-contain animate-pulse"
+                  className="w-24 h-24 object-cover animate-pulse"
+                  {/* className="size-full object-contain animate-pulse" */}
                 />
               </div>
               <h1 className="text-6xl md:text-7xl font-extrabold bg-gradient-to-r from-blue-400 via-purple-400 to-indigo-400 bg-clip-text text-transparent">
