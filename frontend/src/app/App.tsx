@@ -2587,7 +2587,7 @@ export default function App() {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-32">
           <div className="text-center space-y-8">
             <div className="flex items-center justify-center gap-4 animate-fade-in">
-              <div className="relative size-24">
+              <div className="relative w-24 h-24">
                 <img 
                   src={newLogo} 
                   alt="InternAI Logo" 
